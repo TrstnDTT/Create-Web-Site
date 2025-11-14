@@ -16,12 +16,26 @@ const Category = () => {
         <div className="category-hero__content">
           <p className="hero__eyebrow">Univers {category.label}</p>
           <h1>{category.description}</h1>
-          <p>
-            Chaque template est construit sur mesure pour répondre aux usages de vos clients tout en
-            optimisant la conversion. Motion subtile, micro-interactions et hiérarchies claires.
-          </p>
+          <p>{category.intro}</p>
+          {category.manifesto?.length > 0 && (
+            <ul className="pill-list">
+              {category.manifesto.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          )}
+          {category.metrics?.length > 0 && (
+            <div className="stat-pills" role="list">
+              {category.metrics.map((metric) => (
+                <div key={metric.label} className="stat-pill" role="listitem">
+                  <span className="stat-pill__value">{metric.value}</span>
+                  <span className="stat-pill__label">{metric.label}</span>
+                </div>
+              ))}
+            </div>
+          )}
           <Link to="/#contact" className="btn btn--primary">
-            Briefer l\'équipe
+            Briefer l'équipe
           </Link>
         </div>
         <div className="category-hero__visual">

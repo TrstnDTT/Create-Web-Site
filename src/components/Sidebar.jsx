@@ -30,7 +30,7 @@ const Sidebar = () => (
     </nav>
 
     <div className="sidebar__cta">
-      <p>Besoin d\'une démo personnalisée ?</p>
+      <p>Besoin d'une démo personnalisée ?</p>
       <a href="mailto:hello@novacraft.studio" className="btn btn--ghost">
         Échanger avec nous
       </a>

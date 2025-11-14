@@ -20,7 +20,7 @@ const Home = () => (
             Voir une démo Tech
           </Link>
           <a href="mailto:hello@novacraft.studio" className="btn btn--ghost">
-            Discuter d\'un projet
+            Discuter d'un projet
           </a>
         </div>
       </div>
@@ -64,7 +64,7 @@ const Home = () => (
       </div>
       <div className="contact-panel__actions">
         <a href="mailto:hello@novacraft.studio" className="btn btn--primary">
-          Discuter d&apos;un projet
+          Discuter d'un projet
         </a>
         <a href="tel:+33180000000" className="btn btn--ghost">
           +33 1 80 00 00 00

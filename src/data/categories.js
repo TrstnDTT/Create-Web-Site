@@ -4,7 +4,7 @@ import {
   LuBuilding2,
   LuCalendarDays,
   LuCamera,
-  LuCpu,
+  LuHammer,
 } from 'react-icons/lu';
 
 const heroParams = '?auto=format&fit=crop&w=1600&q=80';
@@ -53,6 +53,41 @@ export const categories = [
           { label: 'Menu tactile', palette: ['#FF8C5B', '#FFD4B8'] },
           { label: 'Mobile CTA', palette: ['#0E0C16', '#FFB997'] },
         ],
+        company: {
+          name: 'Maison Aurore',
+          tagline: 'Table gastronomique immersive',
+          hero: {
+            title: 'Voyage culinaire en sept actes',
+            subtitle:
+              'Menus sur-mesure, accords rares et scénographie lumineuse pour des soirées mémorables.',
+          },
+          about:
+            'Maison Aurore imagine des dîners haute couture où chaque service raconte une nouvelle histoire. Notre brigade travaille les fermentations, les fumaisons et les associations inattendues pour surprendre encore et toujours.',
+          highlights: ['Cuisine bas carbone', 'Atelier mixologie privé', 'Service en résidence'],
+          services: [
+            {
+              title: 'Menu Signature',
+              description: '7 créations saisonnières, accords prestigieux et attentions personnalisées.',
+              detail: '350 € / convive',
+            },
+            {
+              title: 'Table du Chef',
+              description: 'Immersion comptoir avec storytelling par le chef et pairing sur mesure.',
+              detail: '12 places par service',
+            },
+            {
+              title: 'Privatisation',
+              description: 'Expériences culinaires pour maisons haute couture, lancements et soirées.',
+              detail: 'Projet sous 15 jours',
+            },
+          ],
+          contact: {
+            phone: '+33 1 80 02 45 90',
+            email: 'bonjour@maisonaurore.fr',
+            address: '21 rue des Gravilliers, 75003 Paris',
+            hours: 'Mar - Dim · 18h - 00h',
+          },
+        },
       },
       {
         id: 'bistro',
@@ -77,6 +112,40 @@ export const categories = [
           { label: 'Carte mobile', palette: ['#FFFFFF', '#1F2533'] },
           { label: 'Avis sticky', palette: ['#FFE9DF', '#FF914D'] },
         ],
+        company: {
+          name: 'Quartier Flamme',
+          tagline: 'Cuisine de marché & cave naturelle',
+          hero: {
+            title: 'Le bistrot vivant des foodies parisiens',
+            subtitle: 'Carte courte, vins libres et ambiance vinyle jusque tard dans la nuit.',
+          },
+          about:
+            'Quartier Flamme est le rendez-vous des amoureux de cuisine spontanée. Notre équipe change la carte midi et soir selon les cueillettes et propose des accords de vins naturels accessibles.',
+          highlights: ['Menu midi 28 €', 'Afterwork plancha', 'Playlists live'],
+          services: [
+            {
+              title: 'Menu déjeuner',
+              description: 'Entrée + plat + dessert inspirés du marché de Rungis.',
+              detail: '28 €',
+            },
+            {
+              title: 'Carte du soir',
+              description: '6 assiettes à partager, viandes maturées et desserts signature.',
+              detail: 'À partir de 12 €',
+            },
+            {
+              title: 'Cave & événements',
+              description: 'Privatisation, masterclass vins naturels et DJ sets intimistes.',
+              detail: 'Sur devis',
+            },
+          ],
+          contact: {
+            phone: '+33 1 42 55 11 09',
+            email: 'hello@quartierflamme.fr',
+            address: '58 rue Oberkampf, 75011 Paris',
+            hours: 'Lun - Dim · 11h30 - 00h30',
+          },
+        },
       },
       {
         id: 'garden',
@@ -101,6 +170,40 @@ export const categories = [
           { label: 'Story mobile', palette: ['#4C8C64', '#E8F5EC'] },
           { label: 'CTA booking', palette: ['#0D1117', '#FFCF91'] },
         ],
+        company: {
+          name: 'Atelier Botanica',
+          tagline: 'Cuisine végétale & mixologie botanique',
+          hero: {
+            title: 'Une serre gastronomique au cœur de la ville',
+            subtitle: 'Menus immersifs, pairing cocktails botaniques et scénographie vivante.',
+          },
+          about:
+            'Atelier Botanica marie techniques végétales contemporaines et inspirations asiatiques. Chaque table bénéficie d’un storytelling personnalisé avec accords cocktails fermentés.',
+          highlights: ['Serre immersive', 'Mixologie botanique', 'Expérience multi-sensorielle'],
+          services: [
+            {
+              title: 'Menu Garden',
+              description: 'Parcours 6 temps autour des textures végétales et bouillons infusés.',
+              detail: '145 €',
+            },
+            {
+              title: 'Lab Cocktails',
+              description: 'Mixologie botanique, kombucha maison et pairing exclusif.',
+              detail: 'Atelier 35 €',
+            },
+            {
+              title: 'Privatisation créative',
+              description: 'Concepts sur-mesure pour marques durable & lancements presse.',
+              detail: 'Sous 10 jours',
+            },
+          ],
+          contact: {
+            phone: '+33 4 91 10 32 21',
+            email: 'studio@atelierbotanica.fr',
+            address: '12 cour d’Opale, 69002 Lyon',
+            hours: 'Mer - Dim · 19h - 23h',
+          },
+        },
       },
     ],
   },
@@ -142,6 +245,40 @@ export const categories = [
           { label: 'Swipe mobile', palette: ['#FFFFFF', '#E96FD0'] },
           { label: 'CTA agenda', palette: ['#150C1F', '#FF8DD1'] },
         ],
+        company: {
+          name: 'Atelier Lucent',
+          tagline: 'Maison capillaire sur rendez-vous',
+          hero: {
+            title: 'Créations couture pour cheveux d’exception',
+            subtitle: 'Colorations signature, coupe architecturale et rituels soin profonds.',
+          },
+          about:
+            'Atelier Lucent propose une lecture sur-mesure du cheveu. Diagnostic morphologique, moodboard et suivi vidéo à la maison accompagnent chaque transformation.',
+          highlights: ['Diagnostic digital', 'Color expert Davines', 'Suites privées'],
+          services: [
+            {
+              title: 'COUTURE COLOR',
+              description: 'Techniques balayage lumière froide, gloss miroir et finition brushing.',
+              detail: 'à partir de 320 €',
+            },
+            {
+              title: 'COUPE SCULPTÉE',
+              description: 'Architecture de coupe selon votre rythme de repousse + coaching styling.',
+              detail: '190 €',
+            },
+            {
+              title: 'RITUEL ATELIER',
+              description: 'Soin profond + massage crânien + protocole à la maison sur 4 semaines.',
+              detail: '90 €',
+            },
+          ],
+          contact: {
+            phone: '+33 1 58 90 07 70',
+            email: 'contact@atelierlucent.fr',
+            address: '7 rue du Cirque, 75008 Paris',
+            hours: 'Mar - Sam · 10h - 21h',
+          },
+        },
       },
       {
         id: 'urban-gloss',
@@ -166,6 +303,40 @@ export const categories = [
           { label: 'Filtre carte', palette: ['#FF6ACE', '#05070F'] },
           { label: 'Stories client', palette: ['#FFE6F7', '#05070F'] },
         ],
+        company: {
+          name: 'Maison Gloss',
+          tagline: 'Salon & studio créatif',
+          hero: {
+            title: 'Le rendez-vous coiffure des communautés créatives',
+            subtitle: 'Looks audacieux, playlists house & filtres express pour booker en 30 secondes.',
+          },
+          about:
+            'Maison Gloss accompagne les talents, artistes et entrepreneurs avec des looks assumés. Notre studio capture chaque transformation pour alimenter votre brand personnel.',
+          highlights: ['RDV 24/7', 'Studio photo intégré', 'Hair-care vegan'],
+          services: [
+            {
+              title: 'Signature Cut',
+              description: 'Coupe graphique + styling éditorial, conseils entretien vidéo.',
+              detail: '110 €',
+            },
+            {
+              title: 'Gloss & Color Melt',
+              description: 'Nuances métalliques, cuivre intense, entretien longue durée.',
+              detail: 'à partir de 180 €',
+            },
+            {
+              title: 'Studio Content',
+              description: 'Mini shooting + retouches + kit social media prêt à publier.',
+              detail: '90 €',
+            },
+          ],
+          contact: {
+            phone: '+33 1 44 09 22 51',
+            email: 'hello@maisongloss.fr',
+            address: '14 passage Desnouettes, 75015 Paris',
+            hours: 'Lun - Sam · 09h - 22h',
+          },
+        },
       },
       {
         id: 'studio-color',
@@ -190,6 +361,40 @@ export const categories = [
           { label: 'Diagnostic mobile', palette: ['#EFB1E7', '#22202A'] },
           { label: 'CTA couleurs', palette: ['#FFFFFF', '#FF9FD7'] },
         ],
+        company: {
+          name: 'Colorlab Riviera',
+          tagline: 'Studio couleur & soin lumineux',
+          hero: {
+            title: 'Balayages solaires, blonds froids et colorations artistiques',
+            subtitle: 'Approche scientifique de la couleur, protocole soin Olaplex et suivi digital.',
+          },
+          about:
+            'Colorlab Riviera est spécialisé dans les transformations lumineuses. Diagnostic numérique, tests pigmentaires et plan d’entretien vous accompagnent sur la durée.',
+          highlights: ['Outils connectés', 'Rituels Olaplex', 'Suivi WhatsApp'],
+          services: [
+            {
+              title: 'Balayage Riviera',
+              description: 'Effet soleil signature, gloss neutralisant et coupe légère.',
+              detail: 'à partir de 260 €',
+            },
+            {
+              title: 'Color Correction',
+              description: 'Analyse pigmentaire, protocole multi-étapes et soin profond.',
+              detail: 'Sur devis',
+            },
+            {
+              title: 'Programme Lumière',
+              description: '4 rendez-vous planifiés + kit soin personnalisé livré à domicile.',
+              detail: '490 €',
+            },
+          ],
+          contact: {
+            phone: '+33 4 93 41 22 77',
+            email: 'studio@colorlabriviera.fr',
+            address: '5 promenade des Arts, 06000 Nice',
+            hours: 'Mar - Sam · 09h - 20h',
+          },
+        },
       },
     ],
   },
@@ -231,6 +436,40 @@ export const categories = [
           { label: 'Simulateur', palette: ['#5C7AEA', '#E1E7FF'] },
           { label: 'Mobile CTA', palette: ['#0F172A', '#98A7FF'] },
         ],
+        company: {
+          name: 'Éloge Résidences',
+          tagline: 'Investir dans des adresses rares',
+          hero: {
+            title: 'Programmes haute signature au cœur des métropoles',
+            subtitle: 'Résidences services, lofts panoramiques et prestations hôtelières integrées.',
+          },
+          about:
+            'Éloge Résidences accompagne les investisseurs et familles à la recherche de biens hautement différenciants. Notre studio design assure une cohérence entre architecture et services.',
+          highlights: ['Conciergerie interne', 'Outils financiers', 'Livraison 2026'],
+          services: [
+            {
+              title: 'Programmes neufs',
+              description: 'Sélection de résidences iconiques à Paris, Lyon et Bordeaux.',
+              detail: 'À partir de 690 K€',
+            },
+            {
+              title: 'Solutions investisseurs',
+              description: 'Simulateurs fiscaux, reporting locatif et pilotage patrimonial.',
+              detail: 'Clés en main',
+            },
+            {
+              title: 'Experience center',
+              description: 'Visites immersives 3D et maquettes tactiles accompagnées par nos experts.',
+              detail: 'Sur rendez-vous',
+            },
+          ],
+          contact: {
+            phone: '+33 1 87 65 42 10',
+            email: 'contact@elogeresidences.fr',
+            address: '150 avenue Raymond Poincaré, 75116 Paris',
+            hours: 'Lun - Ven · 09h - 19h',
+          },
+        },
       },
       {
         id: 'urban-homes',
@@ -255,6 +494,40 @@ export const categories = [
           { label: 'Liste mobile', palette: ['#FFFFFF', '#5C7AEA'] },
           { label: 'Alertes', palette: ['#EEF2FF', '#5C7AEA'] },
         ],
+        company: {
+          name: 'Atlas City Realty',
+          tagline: 'Agir vite sur les plus belles opportunités urbaines',
+          hero: {
+            title: 'Lofts, bureaux créatifs et habitats mixtes',
+            subtitle: 'Plateforme temps réel avec alertes SMS et visites en 48 h.',
+          },
+          about:
+            'Atlas City Realty connecte les propriétaires exigeants et les jeunes investisseurs. Nos chasseurs digitaux scannent 12 quartiers clés et partagent les dossiers complets sur une même interface.',
+          highlights: ['Visites vidéo 360°', 'Financement partenaire', 'Alertes WhatsApp'],
+          services: [
+            {
+              title: 'Chasse locative',
+              description: 'Sélection de biens atypiques pour freelances, studios et startups.',
+              detail: 'Honoraires 3 %',
+            },
+            {
+              title: 'Investissement clé en main',
+              description: 'Analyse rendement, travaux, ameublement et gestion locative.',
+              detail: 'Dossier en 5 jours',
+            },
+            {
+              title: 'Ventes exclusives',
+              description: 'Off-market Lofts, hôtels particuliers et ateliers commerciaux.',
+              detail: 'Accès privé',
+            },
+          ],
+          contact: {
+            phone: '+33 1 76 42 11 20',
+            email: 'hello@atlascity.fr',
+            address: '24 rue du Faubourg Saint-Denis, 75010 Paris',
+            hours: 'Lun - Sam · 09h - 21h',
+          },
+        },
       },
       {
         id: 'heritage',
@@ -279,6 +552,40 @@ export const categories = [
           { label: 'Timeline mobile', palette: ['#B3946E', '#FFF4E4'] },
           { label: 'CTA visites', palette: ['#1E1310', '#F7E2C8'] },
         ],
+        company: {
+          name: 'Collection Héritage',
+          tagline: 'Biens de prestige & patrimoine privé',
+          hero: {
+            title: 'Conserver, transmettre, sublimer vos demeures',
+            subtitle: 'Approche notariale, scénographie éditoriale et mise en relation discrète.',
+          },
+          about:
+            'Collection Héritage valorise les demeures historiques, propriétés viticoles et domaines d’exception. Notre équipe produit des dossiers narratifs et organise des visites privées hautement qualifiées.',
+          highlights: ['Étude notariale partenaire', 'Storytelling propriétaire', 'Dossiers digitaux'],
+          services: [
+            {
+              title: 'Conseil vendeur',
+              description: 'Audit patrimonial, pricing confidentiel et stratégie de cession.',
+              detail: 'Honoraires sur mandat',
+            },
+            {
+              title: 'Scénographie digitale',
+              description: 'Reportages éditoriaux, visites 3D et éditions print sur-mesure.',
+              detail: 'Sous 3 semaines',
+            },
+            {
+              title: 'Conciergerie acheteur',
+              description: 'Sélection restreinte, expertise juridique et closing international.',
+              detail: 'Accompagnement premium',
+            },
+          ],
+          contact: {
+            phone: '+33 1 86 95 44 10',
+            email: 'salon@collectionheritage.fr',
+            address: '5 avenue de l’Opéra, 75001 Paris',
+            hours: 'Lun - Ven · 09h - 19h',
+          },
+        },
       },
     ],
   },
@@ -320,6 +627,40 @@ export const categories = [
           { label: 'Brief mobile', palette: ['#FF7F50', '#05030A'] },
           { label: 'Module sponsor', palette: ['#FFD699', '#1A0D14'] },
         ],
+        company: {
+          name: 'Lumière Prodigy',
+          tagline: 'Creative show studio',
+          hero: {
+            title: 'Shows immersifs pour marques iconiques',
+            subtitle: 'Storyline live, direction artistique et production intégrale.',
+          },
+          about:
+            'Lumière Prodigy imagine des lancements, keynotes et shows hybrides pour les maisons de luxe et scale-ups. Notre cellule créative assure la cohérence du script jusqu’au rendu scénographique.',
+          highlights: ['Direction artistique', 'Production technique', 'Motion & média'],
+          services: [
+            {
+              title: 'Creative Direction',
+              description: 'Concept, storyboard, design sonore et univers visuel complet.',
+              detail: '2 à 4 semaines',
+            },
+            {
+              title: 'Live Production',
+              description: 'Régie technique, captation et diffusion streaming multi-plateformes.',
+              detail: 'Équipe intégrée',
+            },
+            {
+              title: 'Brand Experience',
+              description: 'Pop-up immersifs, roadshows et expériences retail expérientielles.',
+              detail: 'Sur devis',
+            },
+          ],
+          contact: {
+            phone: '+33 1 70 79 58 11',
+            email: 'contact@lumiereprodigy.com',
+            address: '11 rue du Sentier, 75002 Paris',
+            hours: 'Lun - Ven · 09h - 20h',
+          },
+        },
       },
       {
         id: 'ceremonia',
@@ -344,6 +685,40 @@ export const categories = [
           { label: 'Playlist mobile', palette: ['#FFB347', '#FFE3C0'] },
           { label: 'Checklist', palette: ['#FDF1E0', '#C08E65'] },
         ],
+        company: {
+          name: 'Studio Ceremonia',
+          tagline: 'Wedding planning haute émotion',
+          hero: {
+            title: 'Des célébrations imaginées sur-mesure',
+            subtitle: 'Moodboards immersifs, playlists d’ambiance et coordination globale.',
+          },
+          about:
+            'Studio Ceremonia accompagne les couples en quête d’esthétique contemporaine. Nous orchestrons chaque détail avec des artisans locaux, storytellons votre histoire et gérons la logistique globale.',
+          highlights: ['Moodboard interactif', 'Direction artistique', 'Coordination jour J'],
+          services: [
+            {
+              title: 'Direction artistique',
+              description: 'Palette, décors, papeterie et scénographie totale selon votre moodboard.',
+              detail: 'Dossier sous 3 semaines',
+            },
+            {
+              title: 'Planning global',
+              description: 'Budget, rétroplanning et coordination prestataires internationaux.',
+              detail: 'Forfait à partir de 6 900 €',
+            },
+            {
+              title: 'Destination wedding',
+              description: 'Repérage, logistique invités et conciergerie voyages.',
+              detail: 'Sur devis',
+            },
+          ],
+          contact: {
+            phone: '+33 6 72 19 04 88',
+            email: 'bonjour@studioceremonia.com',
+            address: 'Atelier sur rendez-vous · 75010 Paris',
+            hours: 'Lun - Sam · 10h - 19h',
+          },
+        },
       },
       {
         id: 'pulse',
@@ -368,6 +743,40 @@ export const categories = [
           { label: 'Billetterie mobile', palette: ['#FFB347', '#050816'] },
           { label: 'Espace sponsor', palette: ['#10152A', '#56C2FF'] },
         ],
+        company: {
+          name: 'Pulse Expo Agency',
+          tagline: 'Salons & conférences nouvelle génération',
+          hero: {
+            title: 'Des événements data-driven, hybrides et engageants',
+            subtitle: 'Billetterie live, modules sponsors et analytics temps réel.',
+          },
+          about:
+            'Pulse Expo conçoit des rencontres professionnelles immersives. Nous développons des parcours visiteurs dynamiques, maximisons les revenus sponsors et pilotons la performance en direct.',
+          highlights: ['Billetterie live', 'Studios hybrides', 'Data cockpit'],
+          services: [
+            {
+              title: 'Concept & story',
+              description: 'Naming, scénario éditorial et parcours expérience visiteurs.',
+              detail: 'Sprint 15 jours',
+            },
+            {
+              title: 'Production hybride',
+              description: 'Plateaux TV, streaming multi réseaux et captations multi-cam.',
+              detail: 'À partir de 35 K€',
+            },
+            {
+              title: 'Monétisation',
+              description: 'Offres sponsor, marketplace exposants et analytics live.',
+              detail: 'Revenue share',
+            },
+          ],
+          contact: {
+            phone: '+33 1 84 80 70 65',
+            email: 'team@pulse-expo.com',
+            address: '92 rue Réaumur, 75002 Paris',
+            hours: 'Lun - Ven · 09h - 19h',
+          },
+        },
       },
     ],
   },
@@ -409,6 +818,40 @@ export const categories = [
           { label: 'Mobile scroll', palette: ['#9D7BFF', '#0C0C0F'] },
           { label: 'Offres', palette: ['#F1EDFF', '#9D7BFF'] },
         ],
+        company: {
+          name: 'Focus Studio',
+          tagline: 'Portraits éditoriaux & direction artistique',
+          hero: {
+            title: 'Des séries éditoriales pour marques et talents',
+            subtitle: 'Direction artistique complète, moodboard et livraison 4K sous 7 jours.',
+          },
+          about:
+            'Focus Studio capture les identités fortes. Notre équipe créative propose des moodboards, repérages et retouches haut de gamme pour magnifier voix, talents et collections.',
+          highlights: ['Plateau 180 m²', 'Équipe DA', 'Livraison express'],
+          services: [
+            {
+              title: 'Editorial Session',
+              description: 'Pré-prod créative, 3 looks, make-up partner et 20 visuels retouchés.',
+              detail: '1 650 €',
+            },
+            {
+              title: 'Brand Story',
+              description: 'Campagne produit + vidéo backstage + kit social media prêt à publier.',
+              detail: 'Sur devis',
+            },
+            {
+              title: 'Portrait Signature',
+              description: 'Session 90 min, stylisme, coaching pose et sélection express.',
+              detail: '290 €',
+            },
+          ],
+          contact: {
+            phone: '+33 6 11 22 92 30',
+            email: 'bookings@focusstudio.fr',
+            address: 'Loft République · 31 rue Bichat, 75010 Paris',
+            hours: 'Lun - Dim · 08h - 22h',
+          },
+        },
       },
       {
         id: 'wander',
@@ -433,6 +876,40 @@ export const categories = [
           { label: 'Carte mobile', palette: ['#4C707A', '#F2E8D5'] },
           { label: 'Boutique print', palette: ['#181F23', '#F5E5CF'] },
         ],
+        company: {
+          name: 'Wander Stories Co.',
+          tagline: 'Photojournalisme et carnets de voyage',
+          hero: {
+            title: 'Des récits photographiques aux quatre coins du monde',
+            subtitle: 'Journaux immersifs, tirages limités et expéditions sur-mesure.',
+          },
+          about:
+            'Wander Stories documente les peuples et territoires lointains. Nous produisons des séries éditoriales, carnets interactifs et tirages fine art pour les maisons d’édition et les marques responsables.',
+          highlights: ['Journal interactif', 'Cartes immersives', 'Print shop'],
+          services: [
+            {
+              title: 'Expéditions sur commande',
+              description: 'Reportages documentaires longs formats, écriture et sound design.',
+              detail: 'À partir de 12 K€',
+            },
+            {
+              title: 'Boutique tirages',
+              description: 'Éditions limitées, cadres fabriqués en France et certificats.',
+              detail: 'De 190 à 420 €',
+            },
+            {
+              title: 'Talks & expositions',
+              description: 'Conférences, installations immersives et ateliers publics.',
+              detail: 'Sur demande',
+            },
+          ],
+          contact: {
+            phone: '+33 7 82 11 64 98',
+            email: 'studio@wanderstories.co',
+            address: 'Atelier partagé · 2 rue Burq, 75018 Paris',
+            hours: 'Lun - Ven · 10h - 19h',
+          },
+        },
       },
       {
         id: 'atelier-lumiere',
@@ -457,95 +934,231 @@ export const categories = [
           { label: 'Mood mobile', palette: ['#E3D6C7', '#120F0D'] },
           { label: 'CTA booking', palette: ['#9D7BFF', '#F7F2FF'] },
         ],
+        company: {
+          name: 'Atelier Lumière',
+          tagline: 'Photographes mariage & lifestyle',
+          hero: {
+            title: 'Récits lumineux pour les histoires d’amour modernes',
+            subtitle: 'Approche éditoriale, direction artistique et films analogiques.',
+          },
+          about:
+            'Atelier Lumière accompagne les couples et familles qui souhaitent des images sincères et élégantes. Nous travaillons l’argentique, le numérique et le Super 8 pour recréer des émotions tangibles.',
+          highlights: ['Couverture 12h', 'Retouches artisanales', 'Livraison galerie privée'],
+          services: [
+            {
+              title: 'Collection Orchidée',
+              description: 'Reportage complet + séance engagement + album relié à la main.',
+              detail: '3 200 €',
+            },
+            {
+              title: 'Editorial Session',
+              description: 'Shooting mode & lifestyle pour marques mariage et créateurs.',
+              detail: '1 150 €',
+            },
+            {
+              title: 'Films Super 8',
+              description: 'Captations à l’ancienne avec montage personnalisé et bande-son.',
+              detail: 'À partir de 690 €',
+            },
+          ],
+          contact: {
+            phone: '+33 6 19 43 70 54',
+            email: 'bonjour@atelier-lumiere.fr',
+            address: 'Studio lumière · 19 rue Lemercier, 75017 Paris',
+            hours: 'Sur rendez-vous',
+          },
+        },
       },
     ],
   },
   {
-    slug: 'tech',
-    label: 'Tech / Startup',
-    description: 'Des sites produits performants pensés pour la conversion.',
+    slug: 'artisans',
+    label: 'Artisans & Services locaux',
+    description: 'Mettre en avant les savoir-faire de proximité et simplifier les demandes de devis.',
     intro:
-      'Narration produit, modules KPI et tunnels pricing pour accélérer la traction commerciale.',
-    accent: '#54D2D2',
-    icon: LuCpu,
-    heroImage: `https://images.unsplash.com/photo-1518770660439-4636190af475${heroParams}`,
-    manifesto: ['KPIs live', 'Scrollytelling produit', 'Dark & light mode'],
+      'Nous créons des vitrines chaleureuses pour les ateliers, jardins et services d’urgence afin qu’ils gagnent en crédibilité et en visibilité locale.',
+    accent: '#F4B860',
+    icon: LuHammer,
+    heroImage: `https://images.unsplash.com/photo-1489515217757-5fd1be406fef${heroParams}`,
+    manifesto: ['Expertise locale', 'Devis rapide', 'Agenda en ligne'],
     metrics: [
-      { label: 'Signups', value: '+35%' },
-      { label: 'Core Web Vitals', value: 'Green' },
+      { label: 'Demandes devis', value: '+48%' },
+      { label: 'Délai de réponse', value: '-35%' },
     ],
     demos: [
       {
-        id: 'quantum',
-        title: 'Quantum SaaS',
-        style: 'Gradients lumineux, KPI courbes et CTA pricing sticky.',
-        summary: 'Pour les plateformes B2B qui pitchent leur prochaine levée.',
-        image: `https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7${demoParams}`,
+        id: 'atelier-bois',
+        title: 'Atelier Bois & Co',
+        style: 'Textures naturelles, focus savoir-faire et devis express.',
+        summary: 'Menuiserie contemporaine, mobilier sur-mesure et projets retail.',
+        image: `https://images.unsplash.com/photo-1489515217757-5fd1be406fef${demoParams}`,
         highlights: [
-          'Hero data-driven avec graphes live',
-          'Section features modulaire',
-          'Tunnel pricing simplifié',
+          'Catalogue projets',
+          'Focus essences responsables',
+          'Formulaire devis chrono',
         ],
         immersion: {
-          fragment: 'Hero KPI',
-          badge: 'Mini-mockup',
-          kpi: '+58% demandes démo',
-          description: 'Dashboard synthétique avec métriques temps réel.',
-          palette: ['#05070F', '#54D2D2', '#7C5DFF'],
+          fragment: 'Header atelier',
+          badge: 'Mini-site',
+          kpi: '+52% demandes devis',
+          description: 'Menu artisanal avec mise en avant du book projets.',
+          palette: ['#2B2016', '#F4B860', '#E9D3B4'],
         },
         gallery: [
-          { label: 'Dashboard desktop', palette: ['#05070F', '#1F2637'] },
-          { label: 'Pricing mobile', palette: ['#54D2D2', '#05070F'] },
-          { label: 'CTA sticky', palette: ['#7C5DFF', '#05070F'] },
+          { label: 'Portfolio desktop', palette: ['#2B2016', '#6B4D2F'] },
+          { label: 'Devis mobile', palette: ['#FFFFFF', '#F4B860'] },
+          { label: 'Avis clients', palette: ['#F9ECD5', '#2B2016'] },
         ],
+        company: {
+          name: 'Atelier Bois & Co',
+          tagline: 'Menuisiers designers à Lyon',
+          hero: {
+            title: 'Mobilier sur-mesure & agencements haut de gamme',
+            subtitle: 'Atelier artisanal, circuits bois responsables et suivi complet de chantier.',
+          },
+          about:
+            'Depuis 1998, Atelier Bois & Co façonne du mobilier contemporain, des bibliothèques monumentales et des agencements retail sur mesure. Chaque pièce est dessinée dans notre studio puis fabriquée à Villeurbanne.',
+          highlights: ['Bois français FSC', '3D & prototypage', 'Livraison clé en main'],
+          services: [
+            {
+              title: 'Mobilier sur-mesure',
+              description: 'Tables, dressings et bibliothèques imaginés avec votre architecte.',
+              detail: 'Projet moyen 6 semaines',
+            },
+            {
+              title: 'Agencement retail',
+              description: 'Corner boutique, bars à parfums et pop-up stores sur-mesure.',
+              detail: 'Équipe dédiée',
+            },
+            {
+              title: 'Entretien & restauration',
+              description: 'Protection huilée, réparation de pièces anciennes et patines.',
+              detail: 'Intervention sous 72 h',
+            },
+          ],
+          contact: {
+            phone: '+33 4 72 10 32 90',
+            email: 'atelier@boisetco.fr',
+            address: '16 rue Baraban, 69003 Lyon',
+            hours: 'Lun - Ven · 08h - 19h',
+          },
+        },
       },
       {
-        id: 'neura',
-        title: 'Neura Labs',
-        style: 'Glassmorphism, storytelling IA et modules features dynamiques.',
-        summary: 'Parfait pour les startups deep-tech et IA générative.',
-        image: `https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e${demoParams}`,
+        id: 'jardin-urbain',
+        title: 'Verte Ligne Jardins',
+        style: 'Palette végétale, modules avant/après et carnet d’entretien.',
+        summary: 'Paysagiste urbain, jardins suspendus et terrasses végétalisées.',
+        image: `https://images.unsplash.com/photo-1469474968028-56623f02e42e${demoParams}`,
         highlights: [
-          'Story produit en chapitres',
-          'Module laboratoire',
-          'Intégration docs Notion',
+          'Plans 3D interactifs',
+          'Catalogue d’essences locales',
+          'Carnet d’entretien PDF',
         ],
         immersion: {
-          fragment: 'Orbit IA',
-          badge: 'Animation d’aperçu',
-          kpi: '+41% time on page',
-          description: 'Sphère 3D simulée qui réagit au mouvement.',
-          palette: ['#050F1F', '#7C5DFF', '#54D2D2'],
+          fragment: 'Hero végétal',
+          badge: 'Mini-site',
+          kpi: '+37% demandes visites',
+          description: 'Hero organique avec CTA devis immédiat.',
+          palette: ['#0F2A1F', '#5EB083', '#E7F2EA'],
         },
         gallery: [
-          { label: 'Orbit desktop', palette: ['#050F1F', '#141E33'] },
-          { label: 'Chapitres mobile', palette: ['#7C5DFF', '#050F1F'] },
-          { label: 'Formulaire beta', palette: ['#54D2D2', '#050F1F'] },
+          { label: 'Avant / Après', palette: ['#0F2A1F', '#5EB083'] },
+          { label: 'Liste services', palette: ['#FFFFFF', '#5EB083'] },
+          { label: 'Contact rapide', palette: ['#D9EFE3', '#0F2A1F'] },
         ],
+        company: {
+          name: 'Verte Ligne Jardins',
+          tagline: 'Paysagistes urbains à Bordeaux',
+          hero: {
+            title: 'Des jardins nourriciers & terrasses végétales clés en main',
+            subtitle: 'Conception 3D, sélection d’essences locales et entretien annuel.',
+          },
+          about:
+            'Verte Ligne accompagne les particuliers et bureaux qui souhaitent redonner une place au vivant. Nous travaillons avec des horticulteurs locaux et des matériaux sourcés dans le Sud-Ouest.',
+          highlights: ['Diagnostic écologique', 'Système d’arrosage caché', 'Entretien premium'],
+          services: [
+            {
+              title: 'Conception 3D',
+              description: 'Plans immersifs, moodboard plantes et palette matériaux.',
+              detail: 'Sous 10 jours',
+            },
+            {
+              title: 'Réalisation complète',
+              description: 'Plantations, maçonnerie paysagère et éclairage nocturne.',
+              detail: 'Chantiers 2 à 6 semaines',
+            },
+            {
+              title: 'Entretien annuel',
+              description: 'Contrat sur-mesure avec visites saisonnières et soins biologiques.',
+              detail: 'À partir de 120 €/mois',
+            },
+          ],
+          contact: {
+            phone: '+33 5 57 54 22 11',
+            email: 'contact@verteligne.fr',
+            address: 'Atelier rive gauche · 13 quai Richelieu, 33000 Bordeaux',
+            hours: 'Lun - Sam · 08h - 20h',
+          },
+        },
       },
       {
-        id: 'pulsepay',
-        title: 'PulsePay',
-        style: 'Dashboard preview, micro-animations et badges conformité.',
-        summary: 'Pensé pour les fintech à la recherche de crédibilité.',
-        image: `https://images.unsplash.com/photo-1532619173438-74dfbb30b4b0${demoParams}`,
+        id: 'services-urgence',
+        title: 'Nova Services Express',
+        style: 'UI claire, badges réactivité et formulaires rapides.',
+        summary: 'Dépannage multi-services, plomberie, électricité et serrurerie.',
+        image: `https://images.unsplash.com/photo-1503387762-592deb58ef4e${demoParams}`,
         highlights: [
-          'Simulation flux cash',
-          'Testimonials audio',
-          'Module sécurité SOC2',
+          'Chat de devis instantané',
+          'Badges assurance décennale',
+          'Suivi intervention live',
         ],
         immersion: {
-          fragment: 'Dashboard finance',
-          badge: 'Mini-preview',
-          kpi: '+47% conversions trial',
-          description: 'Graphes néomorphiques avec interactions hover.',
-          palette: ['#05070F', '#54D2D2', '#FFC75F'],
+          fragment: 'Header assistance',
+          badge: 'Mini-site',
+          kpi: '15 min pour répondre',
+          description: 'Bannière hotline et formulaire en deux champs.',
+          palette: ['#061428', '#F4B860', '#FF8C5B'],
         },
         gallery: [
-          { label: 'Desktop dashboard', palette: ['#05070F', '#12182A'] },
-          { label: 'Mobile KPIs', palette: ['#54D2D2', '#05070F'] },
-          { label: 'Trust center', palette: ['#FFC75F', '#05070F'] },
+          { label: 'Hotline desktop', palette: ['#061428', '#12234A'] },
+          { label: 'Checklist mobile', palette: ['#FFFFFF', '#F4B860'] },
+          { label: 'Avis urgence', palette: ['#FFE8C9', '#061428'] },
         ],
+        company: {
+          name: 'Nova Services Express',
+          tagline: 'Dépannage premium en Île-de-France',
+          hero: {
+            title: 'Plomberie, électricité et serrurerie 24/7',
+            subtitle: 'Techniciens certifiés, arrivée sur site en 30 minutes en moyenne.',
+          },
+          about:
+            'Nova Services Express intervient pour les particuliers et réseaux de boutiques. Notre dispatch en temps réel sélectionne l’équipe la plus proche et partage un suivi par SMS.',
+          highlights: ['Hotline 24/7', 'Assurance décennale', 'Paiement sécurisé'],
+          services: [
+            {
+              title: 'Urgence plomberie',
+              description: 'Fuites, colonnes bouchées et chauffe-eau en panne.',
+              detail: 'À partir de 120 €',
+            },
+            {
+              title: 'Ouverture de porte',
+              description: 'Intervention serrurerie sans dégât, tous cylindres.',
+              detail: '30 min en moyenne',
+            },
+            {
+              title: 'Contrats pro',
+              description: 'Maintenance préventive, visites annuelles et astreinte dédiée.',
+              detail: 'Sur devis',
+            },
+          ],
+          contact: {
+            phone: '0 805 620 310',
+            email: 'dispatch@novaexpress.fr',
+            address: 'Plateforme · 4 rue André Messager, 75018 Paris',
+            hours: '7 jours / 7 · 24h/24',
+          },
+        },
       },
     ],
   },

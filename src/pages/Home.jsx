@@ -16,8 +16,8 @@ const Home = () => (
           marquer les esprits. Choisissez votre univers et plongez dans nos concepts.
         </p>
         <div className="hero__actions">
-          <Link to="/categorie/tech" className="btn btn--primary">
-            Voir une démo Tech
+          <Link to="/categorie/artisans" className="btn btn--primary">
+            Voir une démo Artisans
           </Link>
           <a href="mailto:hello@novacraft.studio" className="btn btn--ghost">
             Discuter d'un projet

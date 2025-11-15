@@ -1,8 +1,6 @@
-import { useState } from 'react';
-import DemoMenuPreview from './DemoMenuPreview.jsx';
+import { Link } from 'react-router-dom';
 
 const DemoCard = ({ categorySlug, demo, accent }) => {
-  const [isOpen, setIsOpen] = useState(false);
   const { immersion } = demo;
 
   return (
@@ -33,21 +31,10 @@ const DemoCard = ({ categorySlug, demo, accent }) => {
 
       <div className="immersive-card__actions">
         <p>{immersion?.description}</p>
-        <button
-          type="button"
-          className="btn btn--primary"
-          aria-expanded={isOpen}
-          onClick={() => setIsOpen((prev) => !prev)}
-        >
-          {isOpen ? 'Masquer le menu' : 'Voir la démo'}
-        </button>
+        <Link to={`/demo/${categorySlug}/${demo.id}`} className="btn btn--primary" aria-label={`Ouvrir la démo ${demo.title}`}>
+          Voir la démo
+        </Link>
       </div>
-
-      {isOpen && (
-        <div className="immersive-card__menu">
-          <DemoMenuPreview demo={demo} accent={accent} />
-        </div>
-      )}
     </article>
   );
 };

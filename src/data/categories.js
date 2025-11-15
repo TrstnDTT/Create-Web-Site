@@ -4,7 +4,7 @@ import {
   LuBuilding2,
   LuCalendarDays,
   LuCamera,
-  LuSparkles,
+  LuCpu,
 } from 'react-icons/lu';
 
 const heroParams = '?auto=format&fit=crop&w=1600&q=80';
@@ -467,7 +467,7 @@ export const categories = [
     intro:
       'Narration produit, modules KPI et tunnels pricing pour accélérer la traction commerciale.',
     accent: '#54D2D2',
-    icon: LuSparkles,
+    icon: LuCpu,
     heroImage: `https://images.unsplash.com/photo-1518770660439-4636190af475${heroParams}`,
     manifesto: ['KPIs live', 'Scrollytelling produit', 'Dark & light mode'],
     metrics: [

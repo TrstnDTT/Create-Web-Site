@@ -1,4 +1,5 @@
 import { miniSiteThemes } from '../miniSites/themes.js';
+import '../miniSites/styles/domainThemes.css';
 
 const navLibrary = {
   restauration: ['Carte', 'Expérience', 'Réserver'],
@@ -66,7 +67,7 @@ const DemoMiniSite = ({ category, demo }) => {
   ].filter(Boolean);
 
   return (
-    <section className={`mini-site ${layoutClass}`} style={siteStyle}>
+    <section className={`mini-site ${layoutClass}`} style={siteStyle} data-theme={themeKey}>
       <header className="mini-site__header">
         <div className="mini-site__brand">
           <span>{company.name}</span>

@@ -184,6 +184,11 @@ a:focus-visible,
   gap: 10px;
 }
 
+.sidebar__cta-spacer {
+  display: none;
+  height: 0;
+}
+
 .app-content {
   flex: 1;
   padding: 32px 20px 64px;
@@ -446,6 +451,7 @@ a:focus-visible,
 .immersive-card__timeline {
   display: flex;
   gap: 6px;
+  margin-top: 12px;
 }
 
 .immersive-card__timeline span {
@@ -475,6 +481,96 @@ a:focus-visible,
   gap: 12px;
   font-size: 0.9rem;
   color: var(--text-muted);
+}
+
+.immersive-card__menu {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  padding: 12px;
+}
+
+.demo-menu {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  padding: 16px;
+  background: rgba(7, 10, 18, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.demo-menu__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+
+.demo-menu__brand {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.demo-menu__header nav {
+  flex: 1;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.demo-menu__header button {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  cursor: pointer;
+  transition: border var(--transition), color var(--transition), background var(--transition);
+}
+
+.demo-menu__header button:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: var(--text);
+}
+
+.demo-menu__toggle {
+  font-weight: 600;
+}
+
+.demo-menu__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.demo-menu__eyebrow {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.2em;
+}
+
+.demo-menu__actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.demo-menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 .immersive-card__actions {
@@ -772,6 +868,36 @@ a:focus-visible,
 @media (min-width: 1200px) {
   .demo-grid {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .sidebar__cta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: none;
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+    background: var(--glass);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 40;
+  }
+
+  .sidebar__cta .btn {
+    min-width: 140px;
+  }
+
+  .sidebar__cta-spacer {
+    display: block;
+    height: 96px;
+  }
+
+  .app-content {
+    padding-top: 140px;
   }
 }
 

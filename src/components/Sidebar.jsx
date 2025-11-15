@@ -35,6 +35,7 @@ const Sidebar = () => (
         Échanger avec nous
       </a>
     </div>
+    <div className="sidebar__cta-spacer" aria-hidden="true" />
   </aside>
 );
 

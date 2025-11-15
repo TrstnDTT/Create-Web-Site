@@ -94,7 +94,7 @@ export const categories = [
         title: 'Bistrot Urbain',
         style: 'Design clair, badges avis et carte illustrée.',
         summary: 'Pensé pour les tables de quartier qui vivent au rythme des services.',
-        image: `https://images.unsplash.com/photo-1481837005893-44b8304c31ab${demoParams}`,
+        image: 'https://images.unsplash.com/photo-1528692948554-52c88036b2b2?auto=format&fit=crop&w=1200&q=80',
         highlights: [
           'Carrousel express des plats iconiques',
           'Filtre express déjeuner / dîner',
@@ -113,14 +113,14 @@ export const categories = [
           { label: 'Avis sticky', palette: ['#FFE9DF', '#FF914D'] },
         ],
         company: {
-          name: 'Quartier Flamme',
+          name: 'Bistrot Urbain',
           tagline: 'Cuisine de marché & cave naturelle',
           hero: {
-            title: 'Le bistrot vivant des foodies parisiens',
+            title: 'Le rendez-vous des foodies parisiens',
             subtitle: 'Carte courte, vins libres et ambiance vinyle jusque tard dans la nuit.',
           },
           about:
-            'Quartier Flamme est le rendez-vous des amoureux de cuisine spontanée. Notre équipe change la carte midi et soir selon les cueillettes et propose des accords de vins naturels accessibles.',
+            'Bistrot Urbain est le rendez-vous des amoureux de cuisine spontanée. Notre équipe change la carte midi et soir selon les cueillettes et propose des accords de vins naturels accessibles.',
           highlights: ['Menu midi 28 €', 'Afterwork plancha', 'Playlists live'],
           services: [
             {
@@ -141,7 +141,7 @@ export const categories = [
           ],
           contact: {
             phone: '+33 1 42 55 11 09',
-            email: 'hello@quartierflamme.fr',
+            email: 'hello@bistroturbain.fr',
             address: '58 rue Oberkampf, 75011 Paris',
             hours: 'Lun - Dim · 11h30 - 00h30',
           },
@@ -297,7 +297,7 @@ export const categories = [
         title: 'Urban Gloss',
         style: 'Ton franc, filtres rapides et storytelling par service.',
         summary: 'Design punchy pour les salons urbains et communautaires.',
-        image: `https://images.unsplash.com/photo-1610992015735-50b1d08aa8f5${demoParams}`,
+        image: 'https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=1200&q=80',
         highlights: [
           'Filtres express coupe/couleur/soin',
           'Module tarifs dynamique',
@@ -316,7 +316,7 @@ export const categories = [
           { label: 'Stories client', palette: ['#FFE6F7', '#05070F'] },
         ],
         company: {
-          name: 'Maison Gloss',
+          name: 'Urban Gloss',
           tagline: 'Salon & studio créatif',
           hero: {
             title: 'Le rendez-vous coiffure des communautés créatives',

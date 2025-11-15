@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import ImmersivePreview from './ImmersivePreview.jsx';
 
 const DemoSite = ({ category, demo }) => {
   const features = demo.highlights?.length ? demo.highlights : [demo.style];
@@ -35,13 +34,26 @@ const DemoSite = ({ category, demo }) => {
       </div>
 
       <div className="demo-site__immersive" aria-label="Fragment immersif">
-        <ImmersivePreview preview={demo.preview} accent={category.accent} />
-        <div className="immersive-fragment__copy">
-          <h3>{demo.immersion?.fragment}</h3>
-          <p>{demo.immersion?.description}</p>
-          <div className="immersive-fragment__chips">
-            <span>{demo.immersion?.badge}</span>
-            <span>{demo.immersion?.kpi}</span>
+        <div className="immersive-fragment" style={{ borderColor: category.accent }}>
+          <div className="immersive-fragment__preview">
+            <div
+              className="immersive-fragment__gradient"
+              style={{
+                background: `radial-gradient(circle at 20% 20%, ${palette[1] ?? palette[0]}, ${palette[0]} 55%)`,
+              }}
+            />
+            <div className="immersive-fragment__overlay" style={{ borderColor: palette[2] ?? palette[0] }}>
+              <span>{demo.immersion?.badge}</span>
+              <p>{demo.immersion?.fragment}</p>
+            </div>
+          </div>
+          <div className="immersive-fragment__copy">
+            <h3>{demo.immersion?.fragment}</h3>
+            <p>{demo.immersion?.description}</p>
+            <div className="immersive-fragment__chips">
+              <span>{demo.immersion?.badge}</span>
+              <span>{demo.immersion?.kpi}</span>
+            </div>
           </div>
         </div>
       </div>

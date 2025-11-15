@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
-import ImmersivePreview from './ImmersivePreview.jsx';
 
 const DemoCard = ({ categorySlug, demo, accent }) => {
   const { immersion } = demo;
 
   return (
     <article className="immersive-card" style={{ '--accent-color': accent }}>
-      <div className="immersive-card__preview" aria-label={`Aperçu ${demo.title}`}>
-        <ImmersivePreview preview={demo.preview} accent={accent} />
-        <div className="immersive-card__timeline" aria-hidden="true">
+      <div className="immersive-card__preview" aria-hidden="true">
+        <div className="immersive-card__viewport">
+          <img src={demo.image} alt="" loading="lazy" />
+          <span className="immersive-card__badge">{immersion?.badge}</span>
+        </div>
+        <div className="immersive-card__timeline">
           {immersion?.palette?.map((color) => (
             <span key={color} style={{ background: color }} />
           ))}

@@ -53,21 +53,6 @@ export const categories = [
           { label: 'Menu tactile', palette: ['#FF8C5B', '#FFD4B8'] },
           { label: 'Mobile CTA', palette: ['#0E0C16', '#FFB997'] },
         ],
-        preview: {
-          brand: 'NovaTaste',
-          nav: ['Carte', 'Expérience', 'Réserver'],
-          hero: {
-            eyebrow: 'Menu dégustation',
-            title: 'Signature Experience',
-            text: '7 services orchestrés avec accords mets & vins.',
-          },
-          pill: 'Service 20h',
-          cards: [
-            { title: 'Amuse-bouche', meta: 'Cèpes & cacao', value: 'Inclus' },
-            { title: 'Plat', meta: 'Bar nacré miso', value: '62€' },
-            { title: 'Dessert', meta: 'Pamplemousse givré', value: '18€' },
-          ],
-        },
       },
       {
         id: 'bistro',
@@ -92,21 +77,6 @@ export const categories = [
           { label: 'Carte mobile', palette: ['#FFFFFF', '#1F2533'] },
           { label: 'Avis sticky', palette: ['#FFE9DF', '#FF914D'] },
         ],
-        preview: {
-          brand: 'Quartier 12',
-          nav: ['Menu', 'Avis', 'Réserver'],
-          hero: {
-            eyebrow: 'Service midi',
-            title: 'Bistrot Urbain',
-            text: 'Cartes illustrées, menus flash et avis en direct.',
-          },
-          pill: 'File d’attente 8 min',
-          cards: [
-            { title: 'Plat du jour', meta: 'Risotto basilic', value: '21€' },
-            { title: 'Cocktail', meta: 'Spritz bergamote', value: '9€' },
-            { title: 'Note moyenne', meta: '214 avis', value: '4.9/5' },
-          ],
-        },
       },
       {
         id: 'garden',
@@ -131,21 +101,6 @@ export const categories = [
           { label: 'Story mobile', palette: ['#4C8C64', '#E8F5EC'] },
           { label: 'CTA booking', palette: ['#0D1117', '#FFCF91'] },
         ],
-        preview: {
-          brand: 'Fusion Garden',
-          nav: ['Story', 'Carte', 'Privatiser'],
-          hero: {
-            eyebrow: 'Expérience fusion',
-            title: 'Menu jardin nocturne',
-            text: 'Textures minérales, cocktails pairing et scènes vidéo.',
-          },
-          pill: 'Privatisation dès 30 pers.',
-          cards: [
-            { title: 'Cocktail', meta: 'Matcha tonic', value: '14€' },
-            { title: 'Signature', meta: 'Saumon miso, sésame noir', value: '38€' },
-            { title: 'Playlist', meta: 'Ambient Bloom', value: 'Écouter' },
-          ],
-        },
       },
     ],
   },
@@ -187,21 +142,6 @@ export const categories = [
           { label: 'Swipe mobile', palette: ['#FFFFFF', '#E96FD0'] },
           { label: 'CTA agenda', palette: ['#150C1F', '#FF8DD1'] },
         ],
-        preview: {
-          brand: 'Atelier LX',
-          nav: ['Looks', 'Experts', 'Réserver'],
-          hero: {
-            eyebrow: 'Lookbook cinématique',
-            title: 'Wave blond polaire',
-            text: 'Scroll swipe et vidéos backstage pour inspirer.',
-          },
-          pill: 'RDV premium +35€',
-          cards: [
-            { title: 'Coloration', meta: 'Gloss Holo', value: '120€' },
-            { title: 'Coiffeur', meta: 'Lina — Master', value: 'Sam. 10h' },
-            { title: 'Avis', meta: '83 retours', value: '5/5' },
-          ],
-        },
       },
       {
         id: 'urban-gloss',
@@ -226,21 +166,6 @@ export const categories = [
           { label: 'Filtre carte', palette: ['#FF6ACE', '#05070F'] },
           { label: 'Stories client', palette: ['#FFE6F7', '#05070F'] },
         ],
-        preview: {
-          brand: 'Urban Gloss',
-          nav: ['Services', 'Studio', 'Booker'],
-          hero: {
-            eyebrow: 'Filtre express',
-            title: 'Trouve ton mood',
-            text: 'Sélection coupe, couleur et soin en 2 taps.',
-          },
-          pill: 'Dispo 15:30',
-          cards: [
-            { title: 'Coupe', meta: 'Pixie texturé', value: '60€' },
-            { title: 'Couleur', meta: 'Copper glow', value: '110€' },
-            { title: 'Soin', meta: 'K18 flash', value: '30€' },
-          ],
-        },
       },
       {
         id: 'studio-color',
@@ -265,21 +190,6 @@ export const categories = [
           { label: 'Diagnostic mobile', palette: ['#EFB1E7', '#22202A'] },
           { label: 'CTA couleurs', palette: ['#FFFFFF', '#FF9FD7'] },
         ],
-        preview: {
-          brand: 'Studio Colorlab',
-          nav: ['Diagnostic', 'Balayage', 'Tarifs'],
-          hero: {
-            eyebrow: 'Avant / Après',
-            title: 'Balayage rosé satiné',
-            text: 'Glisser pour comparer la transformation en direct.',
-          },
-          pill: 'Test couleur 2 min',
-          cards: [
-            { title: 'Consultation', meta: 'Visio 15 min', value: 'Offert' },
-            { title: 'Forfait', meta: 'Balayage + soin', value: '210€' },
-            { title: 'Rappel', meta: 'Entretien 6 sem.', value: 'Programmé' },
-          ],
-        },
       },
     ],
   },
@@ -321,21 +231,6 @@ export const categories = [
           { label: 'Simulateur', palette: ['#5C7AEA', '#E1E7FF'] },
           { label: 'Mobile CTA', palette: ['#0F172A', '#98A7FF'] },
         ],
-        preview: {
-          brand: 'Premium Living',
-          nav: ['Programmes', 'Investir', 'Visiter'],
-          hero: {
-            eyebrow: 'Nouveau lancement',
-            title: 'Résidence Arpège',
-            text: 'Lofts 3 pièces, terrasses suspendues et vues skyline.',
-          },
-          pill: 'Livraison T2 2026',
-          cards: [
-            { title: 'Type T3', meta: '86m² — Niveau 8', value: '790K€' },
-            { title: 'Rentabilité', meta: 'Projection brute', value: '4.6%' },
-            { title: 'Visite 3D', meta: 'Disponible', value: 'Entrer' },
-          ],
-        },
       },
       {
         id: 'urban-homes',
@@ -360,21 +255,6 @@ export const categories = [
           { label: 'Liste mobile', palette: ['#FFFFFF', '#5C7AEA'] },
           { label: 'Alertes', palette: ['#EEF2FF', '#5C7AEA'] },
         ],
-        preview: {
-          brand: 'Urban Homes',
-          nav: ['Carte', 'Biens', 'Alerts'],
-          hero: {
-            eyebrow: 'Recherche active',
-            title: 'Paris 11e — 3 biens',
-            text: 'Pins synchronisés avec la liste pour filtrer vos coups de cœur.',
-          },
-          pill: 'Alertes activées',
-          cards: [
-            { title: 'Loft Oberkampf', meta: '92m² — 3 ch.', value: '1.09M€' },
-            { title: 'Duplex Popincourt', meta: '78m²', value: '928K€' },
-            { title: 'Atelier Voltaire', meta: '61m²', value: '742K€' },
-          ],
-        },
       },
       {
         id: 'heritage',
@@ -399,21 +279,6 @@ export const categories = [
           { label: 'Timeline mobile', palette: ['#B3946E', '#FFF4E4'] },
           { label: 'CTA visites', palette: ['#1E1310', '#F7E2C8'] },
         ],
-        preview: {
-          brand: 'Heritage Realty',
-          nav: ['Collection', 'Chronologie', 'Contact'],
-          hero: {
-            eyebrow: 'Manoir 1894',
-            title: 'Domaine Saint-Hubert',
-            text: 'Chapitrage éditorial et expertise notariale intégrée.',
-          },
-          pill: 'Visites privées',
-          cards: [
-            { title: 'Surface', meta: '980m² + parc', value: '6.2M€' },
-            { title: 'Histoires', meta: '4 propriétaires', value: 'Lire' },
-            { title: 'Dossier', meta: 'PDF 42 pages', value: 'Télécharger' },
-          ],
-        },
       },
     ],
   },
@@ -455,21 +320,6 @@ export const categories = [
           { label: 'Brief mobile', palette: ['#FF7F50', '#05030A'] },
           { label: 'Module sponsor', palette: ['#FFD699', '#1A0D14'] },
         ],
-        preview: {
-          brand: 'Lumière Prods',
-          nav: ['Timeline', 'Shows', 'Devis'],
-          hero: {
-            eyebrow: 'Show audiovisuel',
-            title: 'Lancement Atlas 2025',
-            text: 'Timeline live avec jalons audio et transitions lumineuses.',
-          },
-          pill: 'Sprint J-32',
-          cards: [
-            { title: 'Scène A', meta: 'Mapping 360°', value: 'Ready' },
-            { title: 'Artistes', meta: '12 confirmés', value: 'Voir' },
-            { title: 'Budget', meta: 'Validé CFO', value: '450K€' },
-          ],
-        },
       },
       {
         id: 'ceremonia',
@@ -494,21 +344,6 @@ export const categories = [
           { label: 'Playlist mobile', palette: ['#FFB347', '#FFE3C0'] },
           { label: 'Checklist', palette: ['#FDF1E0', '#C08E65'] },
         ],
-        preview: {
-          brand: 'Ceremonia',
-          nav: ['Moodboard', 'Couples', 'Agenda'],
-          hero: {
-            eyebrow: 'Mariage Riviera',
-            title: 'Palette terracotta & lin',
-            text: 'Moodboards filtrés par ambiance avec playlist intégrée.',
-          },
-          pill: 'Slot 14h30',
-          cards: [
-            { title: 'Moodboard', meta: '9 visuels', value: 'Ouvrir' },
-            { title: 'Checklist', meta: '47 tâches', value: 'En cours' },
-            { title: 'Playlist', meta: 'Acoustique', value: 'Écouter' },
-          ],
-        },
       },
       {
         id: 'pulse',
@@ -533,21 +368,6 @@ export const categories = [
           { label: 'Billetterie mobile', palette: ['#FFB347', '#050816'] },
           { label: 'Espace sponsor', palette: ['#10152A', '#56C2FF'] },
         ],
-        preview: {
-          brand: 'Pulse Expo',
-          nav: ['Dashboard', 'Billets', 'Sponsors'],
-          hero: {
-            eyebrow: 'Conférence AI Days',
-            title: 'Monitoring en direct',
-            text: 'KPIs billetterie, flux visiteurs et modules partenaires.',
-          },
-          pill: 'Live J+2',
-          cards: [
-            { title: 'Ventes', meta: '98% quota', value: '3 420' },
-            { title: 'NPS', meta: 'Sur 248 réponses', value: '72' },
-            { title: 'Sponsors', meta: '17 actifs', value: 'Voir deals' },
-          ],
-        },
       },
     ],
   },
@@ -589,21 +409,6 @@ export const categories = [
           { label: 'Mobile scroll', palette: ['#9D7BFF', '#0C0C0F'] },
           { label: 'Offres', palette: ['#F1EDFF', '#9D7BFF'] },
         ],
-        preview: {
-          brand: 'Focus Studio',
-          nav: ['Portfolio', 'Offres', 'Booking'],
-          hero: {
-            eyebrow: 'Campagne édito',
-            title: 'Portraits lumière continue',
-            text: 'Scroll horizontal avec chapitres immersifs.',
-          },
-          pill: 'Booking avril',
-          cards: [
-            { title: 'Forfait', meta: 'Editorial 4h', value: '950€' },
-            { title: 'Livrables', meta: '25 images retouchées', value: 'Incl.' },
-            { title: 'Mood', meta: 'Studio violet', value: 'Voir' },
-          ],
-        },
       },
       {
         id: 'wander',
@@ -628,21 +433,6 @@ export const categories = [
           { label: 'Carte mobile', palette: ['#4C707A', '#F2E8D5'] },
           { label: 'Boutique print', palette: ['#181F23', '#F5E5CF'] },
         ],
-        preview: {
-          brand: 'Wander Stories',
-          nav: ['Journal', 'Cartes', 'Prints'],
-          hero: {
-            eyebrow: 'Patagonie',
-            title: 'Carnet J+18 — Cordillère',
-            text: 'Entrées manuscrites et cartes Mapbox stylisées.',
-          },
-          pill: 'Nouvelles photos',
-          cards: [
-            { title: 'Journal', meta: '5 chapitres', value: 'Lire' },
-            { title: 'Prints', meta: 'Edition limitée', value: '35€' },
-            { title: 'Itinéraire', meta: '2140 km', value: 'Explorer' },
-          ],
-        },
       },
       {
         id: 'atelier-lumiere',
@@ -667,21 +457,6 @@ export const categories = [
           { label: 'Mood mobile', palette: ['#E3D6C7', '#120F0D'] },
           { label: 'CTA booking', palette: ['#9D7BFF', '#F7F2FF'] },
         ],
-        preview: {
-          brand: 'Atelier Lumière',
-          nav: ['Stories', 'Offres', 'Contact'],
-          hero: {
-            eyebrow: 'Mariage Alba',
-            title: 'Slider double exposition',
-            text: 'Transitions inspirées du film instantané.',
-          },
-          pill: 'Date libre 14/09',
-          cards: [
-            { title: 'Story', meta: '48 images', value: 'Voir' },
-            { title: 'Pack', meta: 'Orchidée', value: '2 300€' },
-            { title: 'Livraison', meta: 'Galerie 4K', value: '10 jours' },
-          ],
-        },
       },
     ],
   },
@@ -723,21 +498,6 @@ export const categories = [
           { label: 'Pricing mobile', palette: ['#54D2D2', '#05070F'] },
           { label: 'CTA sticky', palette: ['#7C5DFF', '#05070F'] },
         ],
-        preview: {
-          brand: 'Quantum SaaS',
-          nav: ['Produit', 'KPI', 'Pricing'],
-          hero: {
-            eyebrow: 'Activation',
-            title: 'Piloter vos KPI en temps réel',
-            text: 'Dashboards animés et CTA pricing sticky.',
-          },
-          pill: 'ARR +128%',
-          cards: [
-            { title: 'MRR', meta: 'vs. last month', value: '€420k' },
-            { title: 'Churn', meta: '12k comptes', value: '1.2%' },
-            { title: 'NPS', meta: '702 réponses', value: '68' },
-          ],
-        },
       },
       {
         id: 'neura',
@@ -762,21 +522,6 @@ export const categories = [
           { label: 'Chapitres mobile', palette: ['#7C5DFF', '#050F1F'] },
           { label: 'Formulaire beta', palette: ['#54D2D2', '#050F1F'] },
         ],
-        preview: {
-          brand: 'Neura Labs',
-          nav: ['Vision', 'Labs', 'Beta'],
-          hero: {
-            eyebrow: 'IA générative',
-            title: 'Orbit neuro-symbolique',
-            text: 'Story produit en chapitres avec orbites interactives.',
-          },
-          pill: 'Beta privée',
-          cards: [
-            { title: 'Latence', meta: 'Inference GPU', value: '58ms' },
-            { title: 'Labs', meta: '3 modules actifs', value: 'Explorer' },
-            { title: 'Docs', meta: 'Notion sync', value: 'Ouvrir' },
-          ],
-        },
       },
       {
         id: 'pulsepay',
@@ -801,21 +546,6 @@ export const categories = [
           { label: 'Mobile KPIs', palette: ['#54D2D2', '#05070F'] },
           { label: 'Trust center', palette: ['#FFC75F', '#05070F'] },
         ],
-        preview: {
-          brand: 'PulsePay',
-          nav: ['Produit', 'Sécurité', 'Demo'],
-          hero: {
-            eyebrow: 'Fintech',
-            title: 'Pilotez vos flux cash',
-            text: 'Dashboards néomorphiques et badges conformité.',
-          },
-          pill: 'SOC2 Type II',
-          cards: [
-            { title: 'Transactions', meta: '24h', value: '1.8M€' },
-            { title: 'Chargebacks', meta: 'vs. cible', value: '0.2%' },
-            { title: 'Statut API', meta: 'All green', value: '100%' },
-          ],
-        },
       },
     ],
   },

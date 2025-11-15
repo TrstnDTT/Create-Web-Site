@@ -412,120 +412,46 @@ a:focus-visible,
   padding: 16px;
   display: flex;
   flex-direction: column;
+  gap: 12px;
+}
+
+.immersive-card__viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.immersive-card__viewport img {
+  height: 180px;
+  object-fit: cover;
+  filter: saturate(1.1);
+  transform: translateZ(0);
+}
+
+.immersive-card__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(4, 5, 13, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .immersive-card__timeline {
   display: flex;
   gap: 6px;
-  margin-top: 12px;
 }
 
 .immersive-card__timeline span {
   flex: 1;
   height: 6px;
   border-radius: 999px;
-}
-
-.immersive-preview {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-  padding: 14px;
-  background: rgba(7, 10, 18, 0.7);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.immersive-preview__header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--text-muted);
-}
-
-.immersive-preview__brand {
-  font-weight: 600;
-  color: var(--text);
-}
-
-.immersive-preview__nav {
-  display: inline-flex;
-  gap: 6px;
-  flex: 1;
-  justify-content: center;
-}
-
-.immersive-preview__nav button,
-.immersive-preview__toggle {
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: transparent;
-  color: var(--text-muted);
-  border-radius: 999px;
-  padding: 4px 10px;
-  font-size: 0.72rem;
-  letter-spacing: 0.07em;
-  cursor: pointer;
-  transition: border var(--transition), color var(--transition), background var(--transition);
-}
-
-.immersive-preview__nav button:hover,
-.immersive-preview__toggle:hover {
-  border-color: rgba(255, 255, 255, 0.28);
-  color: var(--text);
-}
-
-.immersive-preview__hero {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.immersive-preview__eyebrow {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  letter-spacing: 0.18em;
-}
-
-.immersive-preview__hero h4 {
-  font-size: 1.05rem;
-}
-
-.immersive-preview__hero p {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-
-.immersive-preview__pill {
-  align-self: flex-start;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
-  font-size: 0.78rem;
-}
-
-.immersive-preview__cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-  gap: 8px;
-}
-
-.immersive-preview__cards article {
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  padding: 8px;
-  background: rgba(255, 255, 255, 0.02);
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.immersive-preview__card-label {
-  font-size: 0.75rem;
-  color: var(--text-muted);
 }
 
 .immersive-card__tag {
@@ -633,8 +559,43 @@ a:focus-visible,
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.02);
+}
+
+.immersive-fragment {
   display: grid;
   gap: 18px;
+}
+
+.immersive-fragment__preview {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  min-height: 180px;
+}
+
+.immersive-fragment__gradient {
+  position: absolute;
+  inset: 0;
+}
+
+.immersive-fragment__overlay {
+  position: absolute;
+  inset: 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  backdrop-filter: blur(6px);
+  background: rgba(4, 5, 13, 0.55);
+}
+
+.immersive-fragment__overlay span {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .immersive-fragment__copy {
